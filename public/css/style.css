@@ -1,0 +1,188 @@
+/* Reset delle impostazioni di default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Impostazioni globali */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 50px; /* Spazio per il menu */
+}
+
+/* Intestazione */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navbar */
+nav ul {
+    list-style-type: none;
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+
+/* Contenitore principale */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabelle */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #333;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #eaeaea;
+}
+/* Applica uno stile uniforme a tutti i pulsanti */
+button, a.btn {
+    display: inline-block;
+    padding: 8px 16px; /* Regola le dimensioni */
+    font-size: 14px; /* Imposta una dimensione uniforme */
+    border-radius: 4px; /* Arrotonda gli angoli */
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none; /* Rimuove la sottolineatura dal link */
+    transition: background-color 0.3s ease; /* Aggiungi un effetto di transizione */
+    border: 2px solid transparent; /* Imposta un bordo trasparente per non cambiare la dimensione */
+}
+
+/* Colore di base per i pulsanti */
+a.btn, button {
+    color: white; /* Imposta il colore del testo su bianco */
+}
+
+/* Colore di sfondo per i pulsanti */
+a.btn-info, button.btn-info {
+    background-color: #17a2b8; /* Colore azzurro per il pulsante "Visualizza" */
+    border-color: #17a2b8; /* Colore del bordo uguale allo sfondo */
+}
+
+a.btn-warning, button.btn-warning {
+    background-color: #ffc107; /* Colore giallo per il pulsante "Modifica" */
+    border-color: #ffc107; /* Colore del bordo uguale allo sfondo */
+}
+
+a.btn-danger, button.btn-danger {
+    background-color: #dc3545; /* Colore rosso per il pulsante "Elimina" */
+    border-color: #dc3545; /* Colore del bordo uguale allo sfondo */
+}
+
+a.btn-primary, button.btn-primary {
+    background-color: #007bff; /* Colore blu per il pulsante "Primario" */
+    border-color: #007bff; /* Colore del bordo uguale allo sfondo */
+}
+
+/* Aggiungi effetti di hover per il cambiamento di colore */
+a.btn-info:hover, button.btn-info:hover {
+    background-color: #138496; /* Colore più scuro quando il mouse è sopra il pulsante */
+    border-color: #138496; /* Colore del bordo cambia al colore hover */
+}
+
+a.btn-warning:hover, button.btn-warning:hover {
+    background-color: #e0a800; /* Colore più scuro quando il mouse è sopra il pulsante */
+    border-color: #e0a800; /* Colore del bordo cambia al colore hover */
+}
+
+a.btn-danger:hover, button.btn-danger:hover {
+    background-color: #c82333; /* Colore più scuro quando il mouse è sopra il pulsante */
+    border-color: #c82333; /* Colore del bordo cambia al colore hover */
+}
+
+a.btn-primary:hover, button.btn-primary:hover {
+    background-color: #0069d9; /* Colore più scuro quando il mouse è sopra il pulsante */
+    border-color: #0062cc; /* Colore del bordo cambia al colore hover */
+}
+
+/* Form */
+form {
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="number"], input[type="date"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #5c6bc0;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3949ab;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
